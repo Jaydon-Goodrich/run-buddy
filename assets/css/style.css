@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Style for the body*/
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #39a6b2;
+}
+
+/*Style for the header*/
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+/* Style for the h1 header*/
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+}
+/* Style for the a tags header*/
+header a {
+    text-decoration: none;
+    color: #fce138;
+}
+/* Style for the nav header*/
+header nav {
+    float: right;
+    margin : 7px 0;
+}
+/* Style for the list items in the header*/
+header nav ul li {
+    display: inline;
+}
+/* Style for the a tags on the list items in the header*/
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
